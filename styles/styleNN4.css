@@ -1,0 +1,81 @@
+<STYLE TYPE="text/css">
+
+/* IE Arial, 16px, normal and bold = NN Arial, 16px, normal and bold */
+/* IE Arial, 12px, normal and bold = NN Arial, 12px, normal and bold */
+/* IE Verana, 16px, normal and bold = NN Verana, 16px, normal and bold */
+/* IE Verana, 12px, normal and bold = NN Verana, 12px, normal and bold */
+/* IE Arial 17px normal & bold</b> = <b>NN Arial 18px normal & bold */
+/* IE Arial 14px normal & bold</b> = <b>NN Arial 15px normal & bold */
+/* IE Arial 13px normal & bold</b> = <b>NN Arial 14px normal & bold */
+/* IE Arial 10px normal & bold</b> = <b>NN Arial 11px normal & bold */
+/* IE Arial 9px normal & bold</b> = <b>NN Arial 10px normal & bold */
+/* IE Verdana 17px normal & bold</b> = <b>NN Verdana 18px normal & bold */
+/* IE Verdana 14px normal & bold</b> = <b>NN Verdana 15px normal & bold */
+/* IE Verdana 13px normal & bold</b> = <b>NN Verdana 14px normal & bold */
+/* IE Verdana 10px normal & bold</b> = <b>NN Verdana 11px normal & bold */
+/* IE Verdana 9px normal only</b> = <b>NN Verdana 10px normal only */
+/* Celera, an Applera Corporation Business */
+/* Netscape Navigator Style Sheet */
+
+DUMMY{}
+body {}
+
+p {font-family:arial; font-size:12px; line-height:14px;}
+
+/*  Arial normal  */
+.a9n {font-family:Arial; font-size:10px; font-weight:normal; line-height:11px;}
+.a10n {font-family:Arial; font-size:11px; font-weight:normal; line-height:12px;}
+.a12n {font-family:Arial; font-size:12px; font-weight:normal; line-height:14px;}
+.a13n {font-family:Arial; font-size:14px; font-weight:normal; line-height:15px;}
+.a14n {font-family:Arial; font-size:15px; font-weight:normal; line-height:16px;}
+.a16n {font-family:Arial; font-size:16px; font-weight:normal; line-height:18px;}
+.a17n {font-family:Arial; font-size:18px; font-weight:normal; line-height:19px;}
+
+/*  Arial bold  */
+.a9b {font-family:Arial; font-size:10px; font-weight:bold; line-height:11px;}
+.a10b {font-family:Arial; font-size:11px; font-weight:bold; line-height:12px;}
+.a12b {font-family:Arial; font-size:12px; font-weight:bold; line-height:14px;}
+.a13b {font-family:Arial; font-size:14px; font-weight:bold; line-height:15px;}
+.a14b {font-family:Arial; font-size:15px; font-weight:bold; line-height:16px;}
+.a16b {font-family:Arial; font-size:16px; font-weight:bold; line-height:18px;}
+.a17b {font-family:Arial; font-size:18px; font-weight:bold; line-height:19px;}
+
+/*  Verdana normal */
+.v9n {font-family:Verdana; font-size:10px; font-weight:normal; line-height:11px;}
+.v10n {font-family:Verdana; font-size:11px; font-weight:normal; line-height:12px;}
+.v12n {font-family:Verdana; font-size:12px; font-weight:normal; line-height:14px;}
+.v13n {font-family:Verdana; font-size:14px; font-weight:normal; line-height:15px;}
+.v14n {font-family:Verdana; font-size:15px; font-weight:normal; line-height:16px;}
+.v16n {font-family:Verdana; font-size:16px; font-weight:normal; line-height:18px;}
+.v17n {font-family:Verdana; font-size:18px; font-weight:normal; line-height:19px;}
+
+/*  Verdana bold  */
+/* .a9n {font-family:Verdana; font-size:9px; font-weight:bold; line-height:11px;} doesn't exist in NN*/
+.v10b {font-family:Verdana; font-size:11px; font-weight:bold; line-height:12px;}
+.v12b {font-family:Verdana; font-size:12px; font-weight:bold; line-height:14px;}
+.v13b {font-family:Verdana; font-size:14px; font-weight:bold; line-height:15px;}
+.v14b {font-family:Verdana; font-size:15px; font-weight:bold; line-height:16px;}
+.v16b {font-family:Verdana; font-size:16px; font-weight:bold; line-height:18px;}
+.v17b {font-family:Verdana; font-size:18px; font-weight:bold; line-height:19px;}
+
+
+
+h1 {font-family:arial; font-size:18px; line-height:20px; color:#6B99C7;}
+h2 {font-family:arial; font-size:15px; line-height:16px; font-weight:bold; color:#6B99C7;}
+h3 {font-family:arial; font-size:12px; line-height:14px; font-weight:bold; color:#6B99C7;}
+
+.a10nGrey {font-family:arial; font-size:11px; line-height:12px; color:#666666;}
+.a10nltblue {font-family:arial; font-size:11px; line-height:12px; color:#CEDDED;}
+.a12bGrey {font-family:arial; font-size:12px; line-height:14px; font-weight:bold; color:#666666;}
+.a12nGrey {font-family:arial; font-size:12px; line-height:14px; color:#666666;}
+.a14nGrey {font-family:arial; font-size:15px; line-height:16px; color:#666666;}
+.a14bGrey {font-family:arial; font-size:15px; line-height:16px; color:#666666;}
+.a12nBlack {font-family:arial; font-size:12px; line-height:14px; color:#000000;}
+.a17bBlack {font-family:arial; font-size:18px; line-height:19px; font-weight:bold; color:#000000;}
+
+A:link {text-decoration:none; color:#8F3B40;}
+A:visited {text-decoration:none; color:#8F3B40;}
+
+.v10bBlack {text-decoration:none; color:#000000;font-family:Verdana; font-size:11px; font-weight:bold; line-height:12px;}
+
+</style>

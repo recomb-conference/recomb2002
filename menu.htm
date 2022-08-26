@@ -1,0 +1,79 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+<title>RECOMB 2002</title>
+<script language="JavaScript" src="js/styleSniffer.js"></script>
+<script language="JavaScript">
+var src;
+var bgMainOff = "#CEDDED";
+var bgMainOn  = "#6B99C7";
+
+function itemOver(src) {
+tempBg = src.bgColor;
+src.bgColor=bgMainOn;
+src.style.cursor="hand";
+}
+
+function itemOut(src) {
+src.bgColor=bgMainOff;
+src.style.cursor="default";
+}
+
+function itemDown(src) {
+if(event.srcElement.tagName=='TD'){src.children.tags('A')[0].click();}
+}
+</script>
+</head>
+
+<body bottommargin="0" leftmargin="0" marginheight="0" marginwidth="0" topmargin="0" rightmargin="0">
+<table border="0" cellpadding="0" cellspacing="0" width="100%" nowrap>
+
+<tr>
+<td bgcolor="#6B99C7" nowrap><img src="images/jm.jpg" height="129" width="221"><img src="images/title.gif" height="129" width="474"></td>
+</tr>
+
+<tr>
+<td BGCOLOR="#CEDDED">
+<table BORDER="0" CELLPADDING="0" CELLSPACING="0" WIDTH="745">
+<tr>
+<td BGCOLOR="#CEDDED" nowrap><img src="images/spacer.gif" height="39" width="64"></td>
+<td BGCOLOR="#CEDDED">
+<table BORDER="0" CELLPADDING="2" CELLSPACING="1" WIDTH="475">
+<tr> 
+
+<td width="75" bgcolor="#CEDDED" align="center" onMouseOver="itemOver(this)" onMouseOut="itemOut(this)" onClick="itemOut(this)">
+<a href="home.htm" class="v10bBlack" target="content">Home</a><br><img src="images/spacer.gif" height=1 width=75></td>
+
+<td width="75" bgcolor="#CEDDED" align="center" onMouseOver="itemOver(this)" onMouseOut="itemOut(this)" onClick="itemOut(this)">
+<a href="registration.htm" class="v10bBlack" target="content">Registration</a><br><img src="images/spacer.gif" height=1 width=75></td>
+
+<td width="75" bgcolor="#CEDDED" align="center" onMouseOver="itemOver(this)" onMouseOut="itemOut(this)" onClick="itemOut(this)">
+<a href="travel.htm" class="v10bBlack" target="content">Travel Info / Accomodations</a><br><img src="images/spacer.gif" height=1 width=75></td>
+
+<td width="75" bgcolor="#CEDDED" align="center" onMouseOver="itemOver(this)" onMouseOut="itemOut(this)" onClick="itemOut(this)">
+<a href="schedule.htm" class="v10bBlack" target="content">Schedule</a><br><img src="images/spacer.gif" height=1 width=75></td>
+
+<td width="75" bgcolor="#CEDDED" align="center" onMouseOver="itemOver(this)" onMouseOut="itemOut(this)" onClick="itemOut(this)">
+<a href="speakers.htm" class="v10bBlack" target="content">Invited Speakers</a><br><img src="images/spacer.gif" height=1 width=75></td>
+
+<td width="75" bgcolor="#CEDDED" align="center" onMouseOver="itemOver(this)" onMouseOut="itemOut(this)" onClick="itemOut(this)">
+<a href="papers.htm" class="v10bBlack" target="content">Accepted Papers</a><br><img src="images/spacer.gif" height=1 width=75></td>
+
+<td width="75" bgcolor="#CEDDED" align="center" onMouseOver="itemOver(this)" onMouseOut="itemOut(this)" onClick="itemOut(this)">
+<a href="committee.htm" class="v10bBlack" target="content">Committee Members</a><br><img src="images/spacer.gif" height=1 width=75></td>
+
+<td width="75" bgcolor="#CEDDED" align="center" onMouseOver="itemOver(this)" onMouseOut="itemOut(this)" onClick="itemOut(this)">
+<a href="sponsors.htm" class="v10bBlack" target="content">Sponsors</a><br><img src="images/spacer.gif" height=1 width=75></td>
+
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+</body>
+</html>
